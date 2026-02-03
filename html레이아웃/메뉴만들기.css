@@ -1,0 +1,56 @@
+/* 메뉴만들기.css */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#wrap{
+    width:1200px; /*최대너비*/    
+    position: relative;
+    margin: 0 auto;
+
+
+}
+
+#header{
+    padding: 10px 20px;
+}
+
+/* 브라우저에 이미지 표현1 */
+#logoWrap {
+    /* width: 50px; */
+    height: 50px;
+}
+
+#logoWrap img{
+    /* id가 logoWrap인 태그 밑에 있는 img 태그 선택 */
+    /* width: 100%; */
+    height: 100%;
+}
+
+/* 브라우저에 이미지 표현2 */
+#logoImg{
+    height: 50px;
+    background: url("./난자유다.png") no-repeat;
+    width: 100px;
+    background-size: cover;
+}
+
+.menuLink{
+    font-size: 25px; /* 글자크기 */
+    color: black;/* 글자색상 */
+    text-decoration: none;
+    font-weight: 700; /* 글자굵기 */
+    padding: 3px 7px;
+    margin: 0 20px;
+}
+
+#logoWrap{
+    float:left;
+}
+
+#logoImg{
+    float: left;
+}

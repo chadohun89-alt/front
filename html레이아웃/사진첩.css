@@ -1,0 +1,94 @@
+
+.imagebox{
+    margin-top: 20px;
+    height: 300px;
+}
+
+.imgcard{
+    float:left;
+    height: 300px;
+    width:150px;
+    margin:0 10px;
+}
+
+.imgcard img{
+    width:100%;
+}
+
+.imgcard2 {
+    height: 300px;
+    width: 150px;
+    margin:0 10px;
+    float: left;
+    background: url(./난자유다.png) no-repeat;
+    background-size: contain;
+}
+
+.imgcard2.a{
+    background: url(./다람쥐.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.imgcard2.b{
+    background: url(./난자유다.png) no-repeat center;
+    background-size: cover;
+}
+
+.imgcard2.c{
+    background: url(./다람쥐.jpg) no-repeat center;
+    background-size: cover;
+}
+
+
+
+
+/* #main{
+    padding: 10px 20px;
+
+}
+.line{
+    height: 300px;
+    width: 150px;
+}
+
+.img_set{
+    width: 150px;
+    height: 300px;
+}
+
+
+
+#img1{
+    float:left
+}
+#img2{
+    float:left
+}
+#img3{
+
+}
+
+#img4{
+    float:left
+    
+}
+#img5{
+    float:left
+    
+}
+#img6{
+    
+    
+}
+#img7{
+    float:left
+    
+}
+#img8{
+    float:left
+    
+}
+#img9{
+    
+    
+} */
