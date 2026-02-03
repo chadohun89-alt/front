@@ -5,11 +5,50 @@
 }
 
 #wrap{
-    width: 1200px;
-    position: relative;
+    /* max-width: 1200px; */
+    width: 100%;
     margin: 0 auto;
+    position: relative;
 }
 
 #header{
     padding: 10px 20px;
+}
+
+#main{
+    padding: 10px 20px;
+}
+
+#hero_box{
+    width: 100%;
+    overflow: hidden;
+}
+
+#hero_box img{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    display: block;
+}
+
+#bestshot_box{
+    display: flex; /* 가로로 나열 */
+    gap:20px; /* 사진 사이 간격 */
+    margin-top: 30px;
+
+}
+
+#bestshot_box .card {
+    flex: 1;   /* 3개가 공평하게 1:1:1 비율을 가짐 */
+}
+
+#bestshot_box img {
+    width: 100%;  /* 카드의 너비에 맞게 조절 */
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px; /* 모서리 둥글게 (선택사항) */
+}
+
+#imgs_box{
+    
 }
