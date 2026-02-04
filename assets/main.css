@@ -85,7 +85,7 @@ header {
 #hero_box{
     width: 100%;
     overflow: hidden;
-      margin-bottom: 30px;
+      margin-bottom: 50px;
 }
 
 #hero_box img{
@@ -131,11 +131,18 @@ header {
 }
 
 /* 베스트 샷 */
+.sectionTitle{
+  margin: 20px 0 12px 10px;
+  font-size: 22px;
+  font-weight: 800;
+  color: #111;
+}
+
 #bestshot_box{
     display: flex; /* 가로로 나열 */
     gap:20px; /* 사진 사이 간격 */
 
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 
 #bestshot_box .card {
