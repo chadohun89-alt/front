@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./exam1.css" />
+  </head>
+  <body>
+    <!-- 
+    📌 요구사항
+
+전체 구조는 반드시 다음 시맨틱 태그를 사용합니다.
+
+header, main, footer
+
+1. header 안에는:
+
+왼쪽에 로고 텍스트: “TRAVEL”
+
+오른쪽에 메뉴 4개(링크): Home / Course / Food / Contact
+
+2. main 안에는 “주제(섹션)”를 2개 만듭니다.
+
+주제 1: 제목 h2 = “Highlights”, 내용 p 2줄 이상
+
+주제 2: 제목 h2 = “Recommended Course”, 순서 있는 목록(ol) 3개 이상
+
+3. footer 안에는:
+
+주소 1줄, 연락처 1줄, 저작권 1줄을 각각 다른 줄로 표시
+
+
+접근성(기초) 조건:
+
+메뉴 링크 텍스트는 위의 단어 그대로
+
+페이지 최상단에 h1은 딱 1개만 존재 (문구는 자유)
+    -->
+    <div id="wrap">
+      <div id="top"><h1>이게 뭐가 어렵다구</h1></div>
+      <header id="header">
+        <!-- 헤더 -->
+
+        <div class="container">
+          <div id="header_parent">
+            <!-- flex 부모 -->
+            <h3>TRAVEL</h3>
+            <!-- 로고 텍스트 -->
+            <nav id="nav">
+              <!-- 메뉴 -->
+              <ol>
+                <li><a href="">Home</a></li>
+                <li><a href="">Course</a></li>
+                <li><a href="">Food</a></li>
+                <li><a href="">Contact</a></li>
+              </ol>
+            </nav>
+          </div>
+        </div>
+      </header>
+
+      <main id="main">
+        <!-- 메인 -->
+        <div class="container">
+          <div id="content1">
+            <!-- 주제1 -->
+            <h2>“Highlights”</h2>
+            <p>
+              내용을 2줄 이상 쓰려면 너비를 조정해야겠는 걸? 나랏말싸미 뒹귝에
+              달아 어쩌고 저쩌고 2줄을 만들어 6마리의 용이 하늘을 날아 조선이
+              건국되었다.
+            </p>
+            <p>하늘에서 환웅이 내려와 하는 말 "디비디비딥!"</p>
+          </div>
+
+          <div id="content2">
+            <!-- 주제2 -->
+            <h2>"Recommended Course"</h2>
+            <ol>
+              <li>최강제주</li>
+              <li>믹키강원</li>
+              <li>유노경기</li>
+            </ol>
+          </div>
+        </div>
+      </main>
+
+      <footer id="footer">
+        <!-- 푸터 -->
+        <div class="container">
+          <div id="footer_parent">
+            <p>주소 : 대전</p>
+            <p>연락처 : 010-0000-0000</p>
+            <p>저작권 : copyright 도헌</p>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>

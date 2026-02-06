@@ -1,0 +1,77 @@
+#wrap{
+    width: 100%;
+    box-sizing: border-box;
+}
+#top{
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+
+
+/* ------------ 헤더 ------------ */
+
+#header{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    position: sticky;
+    top: 0px;
+    z-index: 1000;
+    background-color: lightgray;
+}
+
+#header_parent{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    
+}
+
+#nav ol{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+
+
+
+/* ------------ 메인 ------------ */
+
+#main{
+    min-height: 1000px;
+}
+
+#content1{
+    margin-bottom: 100px;
+}
+
+#content2{
+
+}
+
+
+
+
+
+/* ------------ 푸터 ------------ */
+#footer{
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px 30px;
+    border-top: 1px solid black;
+    background-color: lightgray;
+}
+#footer_parent{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+

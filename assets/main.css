@@ -33,7 +33,7 @@ header {
   justify-content: center;
 }
 
-/* 실제 내용이 들어가는 박스 */
+/* 컨테이너 */
 .nav-container {
   width: 1200px;
   height: 100%;
@@ -243,7 +243,7 @@ header {
 
 
 /* ===================== 풋터 ===================== */
-/* ===== footer 전체 영역(바깥 컨테이너) ===== */
+/* ===== footer 전체 영역 ===== */
 #footer{
     
   /* 본문과 footer를 구분하는 얇은 선 */
@@ -252,11 +252,11 @@ header {
   /* footer 위아래 여백(깔끔함의 핵심) */
   padding: 28px 20px;
 
-  /* 배경은 아주 연하게 (원하면 white로 바꿔도 됨) */
+  /* 배경은 아주 연하게  */
   background: #f7f7f7;
 }
 
-/* ===== footer 안쪽 "정보 블록"(내용 덩어리) ===== */
+/* ===== footer 컨테이너 ===== */
 #footerInfo{
   /* '적당한 폭': 내용이 너무 퍼지지 않게 최대 폭 제한 */
   max-width: 600px;
